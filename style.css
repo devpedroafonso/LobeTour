@@ -12,4 +12,105 @@
     margin: 0;
     box-sizing: border-box;
     font-family: "Roboto", serif;
+    text-decoration: none;
+    
 }
+
+header{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    padding: 1.5rem;
+    padding-right: 2.5rem;
+    background-color: var(--branco);
+    border-bottom: 1px transparent;
+    width: 100vw;
+    position: fixed;
+    z-index: 4;
+}
+
+header div{
+    display: flex;
+}
+
+header h1{
+    color: var(--cinza);
+    font-size: 25px;
+}
+
+header img{
+    width: 30px;
+}
+
+header nav{
+    display: flex;
+    gap: 1rem;
+}
+
+header nav a{
+    color: var(--preto);
+    font-weight: 500;
+    transition: 0.10s linear;
+}
+
+header nav a:hover{
+    border-bottom: 2px solid var(--detalhe);
+    padding-bottom: 0.1rem;
+}
+
+header button{
+    color: var(--branco);
+    background-color: var(--detalhe);
+    border: 1px transparent;
+    border-radius: 25px;
+    height: 2rem;
+    width: 7rem;
+    cursor: pointer;
+}
+
+
+
+
+
+
+
+section{
+    padding-top: 10rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 3rem;
+}
+
+section h2{
+    color: var(--cinza);
+    font-size: 55px;
+}
+
+section h2 span{
+    color: var(--detalhe);
+}
+
+section p{
+    font-size: 22px;
+    text-align: center;
+}
+
+section div{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #d6d6d6;
+    width: 50rem;
+    height: 30rem;
+    border: 1px transparent;
+    border-radius: 30px;
+}
+section video{
+    border: 1px transparent;
+    border-radius: 30px;
+    width: 700px;
+}
+
